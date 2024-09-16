@@ -1,0 +1,92 @@
+Attribute Information:
+
+1. **Predictive Attributes (122)**
+2. **Non-Predictive Attributes (5)**
+3. **Goal Attribute (1)**
+
+| Attribute                | Description                                                                                  | Type                  |
+|--------------------------|----------------------------------------------------------------------------------------------|-----------------------|
+| **state**                | US state (by number) - not counted as predictive above, but if considered, nominal (nominal) | Nominal               |
+| **county**               | Numeric code for county - not predictive, and many missing values                            | Numeric               |
+| **community**            | Numeric code for community - not predictive and many missing values                          | Numeric               |
+| **communityname**        | Community name - not predictive - for information only                                       | String                |
+| **fold**                 | Fold number for non-random 10 fold cross validation, potentially useful for debugging        | Numeric               |
+| **population**           | Population for community                                                                     | Numeric (Decimal)     |
+| **householdsize**        | Mean people per household                                                                    | Numeric (Decimal)     |
+| **racepctblack**         | Percentage of population that is African American                                            | Numeric (Decimal)     |
+| **racePctWhite**         | Percentage of population that is Caucasian                                                   | Numeric (Decimal)     |
+| **racePctAsian**         | Percentage of population that is of Asian heritage                                           | Numeric (Decimal)     |
+| **racePctHisp**          | Percentage of population that is of Hispanic heritage                                        | Numeric (Decimal)     |
+| **agePct12t21**          | Percentage of population that is 12-21 years old                                             | Numeric (Decimal)     |
+| **agePct12t29**          | Percentage of population that is 12-29 years old                                             | Numeric (Decimal)     |
+| **agePct16t24**          | Percentage of population that is 16-24 years old                                             | Numeric (Decimal)     |
+| **agePct65up**           | Percentage of population that is 65 years and older                                          | Numeric (Decimal)     |
+| **numbUrban**            | Number of people living in areas classified as urban                                         | Numeric (Decimal)     |
+| **pctUrban**             | Percentage of people living in areas classified as urban                                     | Numeric (Decimal)     |
+| **medIncome**            | Median household income                                                                      | Numeric (Decimal)     |
+| **pctWWage**             | Percentage of households with wage or salary income in 1989                                  | Numeric (Decimal)     |
+| **pctWFarmSelf**         | Percentage of households with farm or self-employment income in 1989                         | Numeric (Decimal)     |
+| **pctWInvInc**           | Percentage of households with investment/rent income in 1989                                 | Numeric (Decimal)     |
+| **pctWSocSec**           | Percentage of households with social security income in 1989                                 | Numeric (Decimal)     |
+| **pctWPubAsst**          | Percentage of households with public assistance income in 1989                               | Numeric (Decimal)     |
+| **pctWRetire**           | Percentage of households with retirement income in 1989                                      | Numeric (Decimal)     |
+| **medFamInc**            | Median family income (differs from household income for non-family households)               | Numeric (Decimal)     |
+| **perCapInc**            | Per capita income                                                                            | Numeric (Decimal)     |
+| **whitePerCap**          | Per capita income for Caucasians                                                             | Numeric (Decimal)     |
+| **blackPerCap**          | Per capita income for African Americans                                                      | Numeric (Decimal)     |
+| **indianPerCap**         | Per capita income for Native Americans                                                       | Numeric (Decimal)     |
+| **AsianPerCap**          | Per capita income for people with Asian heritage                                             | Numeric (Decimal)     |
+| **OtherPerCap**          | Per capita income for people with 'other' heritage                                           | Numeric (Decimal)     |
+| **HispPerCap**           | Per capita income for people with Hispanic heritage                                          | Numeric (Decimal)     |
+| **NumUnderPov**          | Number of people under the poverty level                                                     | Numeric (Decimal)     |
+| **PctPopUnderPov**       | Percentage of people under the poverty level                                                 | Numeric (Decimal)     |
+| **PctLess9thGrade**      | Percentage of people 25 and over with less than a 9th grade education                        | Numeric (Decimal)     |
+| **PctNotHSGrad**         | Percentage of people 25 and over who are not high school graduates                           | Numeric (Decimal)     |
+| **PctBSorMore**          | Percentage of people 25 and over with a bachelor's degree or higher education                | Numeric (Decimal)     |
+| **PctUnemployed**        | Percentage of people 16 and over, in the labor force, and unemployed                         | Numeric (Decimal)     |
+| **PctEmploy**            | Percentage of people 16 and over who are employed                                            | Numeric (Decimal)     |
+| **PctEmplManu**          | Percentage of people 16 and over who are employed in manufacturing                           | Numeric (Decimal)     |
+| **PctEmplProfServ**      | Percentage of people 16 and over who are employed in professional services                   | Numeric (Decimal)     |
+| **PctOccupManu**         | Percentage of people 16 and over who are employed in manufacturing                           | Numeric (Decimal)     |
+| **PctOccupMgmtProf**     | Percentage of people 16 and over who are employed in management or professional occupations  | Numeric (Decimal)     |
+| **MalePctDivorce**       | Percentage of males who are divorced                                                         | Numeric (Decimal)     |
+| **MalePctNevMarr**       | Percentage of males who have never married                                                   | Numeric (Decimal)     |
+| **FemalePctDiv**         | Percentage of females who are divorced                                                       | Numeric (Decimal)     |
+| **TotalPctDiv**          | Percentage of population who are divorced                                                    | Numeric (Decimal)     |
+| **PersPerFam**           | Mean number of people per family                                                             | Numeric (Decimal)     |
+| **PctFam2Par**           | Percentage of families (with kids) that are headed by two parents                            | Numeric (Decimal)     |
+| **PctKids2Par**          | Percentage of kids in family housing with two parents                                        | Numeric (Decimal)     |
+| **PctYoungKids2Par**     | Percentage of kids 4 and under in two-parent households                                      | Numeric (Decimal)     |
+| **PctTeen2Par**          | Percentage of kids age 12-17 in two-parent households                                        | Numeric (Decimal)     |
+| **PctWorkMomYoungKids**  | Percentage of moms of kids 6 and under in the labor force                                    | Numeric (Decimal)     |
+| **PctWorkMom**           | Percentage of moms of kids under 18 in the labor force                                       | Numeric (Decimal)     |
+| **NumIlleg**             | Number of kids born to never married individuals                                             | Numeric (Decimal)     |
+| **PctIlleg**             | Percentage of kids born to never married individuals                                         | Numeric (Decimal)     |
+| **NumImmig**             | Total number of people known to be foreign born                                              | Numeric (Decimal)     |
+| **PctImmigRecent**       | Percentage of immigrants who immigrated within the last 3 years                              | Numeric (Decimal)     |
+| **PctImmigRec5**         | Percentage of immigrants who immigrated within the last 5 years                              | Numeric (Decimal)     |
+| **PctImmigRec8**         | Percentage of immigrants who immigrated within the last 8 years                              | Numeric (Decimal)     |
+| **PctImmigRec10**        | Percentage of immigrants who immigrated within the last 10 years                             | Numeric (Decimal)     |
+| **PctRecentImmig**       | Percentage of population who have immigrated within the last 3 years                         | Numeric (Decimal)     |
+| **PctRecImmig5**         | Percentage of population who have immigrated within the last 5 years                         | Numeric (Decimal)     |
+| **PctRecImmig8**         | Percentage of population who have immigrated within the last 8 years                         | Numeric (Decimal)     |
+| **PctRecImmig10**        | Percentage of population who have immigrated within the last 10 years                        | Numeric (Decimal)     |
+| **PctSpeakEnglOnly**     | Percentage of people who speak only English                                                  | Numeric (Decimal)     |
+| **PctNotSpeakEnglWell**  | Percentage of people who do not speak English well                                           | Numeric (Decimal)     |
+| **PctLargHouseFam**      | Percentage of family households that are large (6 or more)                                   | Numeric (Decimal)     |
+| **PctLargHouseOccup**    | Percentage of all occupied households that are large (6 or more people)                      | Numeric (Decimal)     |
+| **PersPerOccupHous**     | Mean persons per household                                                                   | Numeric (Decimal)     |
+| **PersPerOwnOccHous**    | Mean persons per owner occupied household                                                    | Numeric (Decimal)     |
+| **PersPerRentOccHous**   | Mean persons per rental household                                                            | Numeric (Decimal)     |
+| **PctPersOwnOccup**      | Percentage of people in owner occupied households                                            | Numeric (Decimal)     |
+| **PctPersDenseHous**     | Percentage of persons in dense housing (more than 1 person per room)                         | Numeric (Decimal)     |
+| **PctHousLess3BR**       | Percentage of housing units with less than 3 bedrooms              			  | Numeric               |
+| **MedNumBR**             | Median number of bedrooms                                          			  | Numeric               |
+| **HousVacant**           | Number of vacant households                                       				  | Numeric               |
+| **PctHousOccup**         | Percentage of housing units occupied                              				  | Numeric               |
+| **PctHousOwnOcc**        | Percentage of households that are owner-occupied                  				  | Numeric               |
+| **PctVacantBoarded**     | Percentage of vacant housing that is boarded up                   				  | Numeric               |
+| **PctVacMore6Mos**       | Percentage of vacant housing that has been vacant for more than 6 months 			  | Numeric               |
+| **MedYrHousBuilt**       | Median year housing units were built                               			  | Numeric               |
+| **PctHousNoPhone**       | Percentage of occupied housing units without a phone               			  | Numeric               |
+| **PctWOFullPlumb**       | Percentage of housing units without complete plumbing facilities   			  | Numeric               |
