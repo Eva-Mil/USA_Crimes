@@ -38,7 +38,7 @@ For future work, additional criminological theories could be explored to enhance
 
 To replicate or build upon this analysis, follow these steps:
 
-Download the Dataset: Obtain the dataset from Link<https://archive.ics.uci.edu/dataset/183/communities+and+crime>
+Download the Dataset: Obtain the dataset from [Link](https://archive.ics.uci.edu/dataset/183/communities+and+crime)
 
 Data Overview: Review the variable descriptions and examine the statistical summary of each variable (see summarystatistics and variabledescription). Analysis: Use the provided scripts and tools for conducting the descriptive analysis. Results: Review the findings, interpretations and insights under each model in the file. 
 
@@ -65,4 +65,4 @@ For questions or further information, please contact Eva Milona at evamilona1@gm
 
 # References
 
-[1] UCI Machine Learning Repository. (1999). Communities and Crime Data Set. Link:<https://archive.ics.uci.edu/dataset/183/communities+and+crime>
+[1] UCI Machine Learning Repository. (1999). Communities and Crime Data Set. [Link](https://archive.ics.uci.edu/dataset/183/communities+and+crime)
