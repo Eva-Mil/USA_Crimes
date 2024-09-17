@@ -65,4 +65,4 @@ For questions or further information, please contact Eva Milona at evamilona1@gm
 
 # References
 
-[1] UCI Machine Learning Repository. (1999). Communities and Crime Data Set. [Link](https://archive.ics.uci.edu/dataset/183/communities+and+crime)
+[1] Redmond, M. (2002). Communities and Crime [Dataset]. UCI Machine Learning Repository. [Link](https://archive.ics.uci.edu/dataset/183/communities+and+crime)
